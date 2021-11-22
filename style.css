@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 40px;
+    height: 40px; 
+    color: white;
+    background-color: rgb(54, 54, 54);
+    border: solid 2px rgb(54, 54, 54);
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.zero{
+    width: 85px;
+}
+
+.igual{
+    height: 85px;
+}
+
+p{
+    background-color: white;
+    width: 155px;
+    height: 20px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 25px;
+}
+
+.conteudo{
+    background-color: rgb(130, 238, 180);
+    padding: 0 20px 20px 20px;
+    border-radius: 25px;
+    margin-top: 55px;
+}
+
+button:hover{
+    background-color:rgba(54, 54, 54, 0.8);
+}
